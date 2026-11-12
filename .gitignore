@@ -1,3 +1,6 @@
-
 # MacOS files
 .DS_Store
+
+# Personal AI agent config (shared config is .claude/settings.json and AGENTS.md)
+.claude/settings.local.json
+CLAUDE.local.md
