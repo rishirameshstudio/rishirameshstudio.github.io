@@ -49,7 +49,7 @@ To preview locally, run `python3 -m http.server 8000` and open http://localhost:
 For Claude Code, `.claude/settings.json` enforces these rules: it prompts before any commit or push and removes attribution. Other tools rely on this section alone, so keep the two in sync.
 
 - Don't commit or push unless asked. `main` deploys straight to the live site, so work on a branch.
-- Don't add AI attribution anywhere: no `Co-Authored-By` trailers, no "generated with" lines in PRs, no notes in code.
+- Never credit Claude, Anthropic or any other AI tool, anywhere: commits (no `Co-Authored-By` trailers), PRs and issues (no "generated with" lines), code comments, docs or branch names.
 - Write commit messages with a short subject in the imperative mood ("Fix menu focus", not "Fixed menu focus").
 
 ## Known gaps
